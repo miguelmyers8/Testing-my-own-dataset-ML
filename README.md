@@ -1,2 +1,2 @@
-# testing-my-own-data-set-ML
+# Testing my own dataset ML
 netflix stock data with sklearn

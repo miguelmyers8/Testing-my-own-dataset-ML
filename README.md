@@ -13,4 +13,9 @@ Code example:
 [How To Implement Simple Linear Regression From Scratch With Python](http://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/ "How To Implement Simple Linear Regression From Scratch With Python")<br />
 
 
-![Alt text](rmimg/img1.jpg?raw=true "Title")
+![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
+<br />
+```python
+//values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
+```
+

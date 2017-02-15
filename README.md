@@ -22,13 +22,14 @@ To find the BEST fit line we must minimize our actual data from our estimated da
 ![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
 
 
-![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
-<br />
 
+- - - -
 The data x,y
 ```python
 //values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
-```
+```<br />
+![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
+<br />
 
 Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />

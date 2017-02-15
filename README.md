@@ -13,6 +13,15 @@ Code example:
 [How To Implement Simple Linear Regression From Scratch With Python](http://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/ "How To Implement Simple Linear Regression From Scratch With Python")<br />
 
 
+
+<br />
+We want to find the regression line. The line that BEST fits through all our points.
+![Alt text](rmimg/img4.jpg?raw=true "Title")<br />
+
+To find the BEST fit line we must minimize our actual data from our estimated data.
+![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
+
+
 ![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
 <br />
 
@@ -20,12 +29,6 @@ The data x,y
 ```python
 //values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
 ```
-<br />
-We want to find the regression line. The line that BEST fits through all our points.
-![Alt text](rmimg/img4.jpg?raw=true "Title")<br />
-
-To find the BEST fit line we must minimize our actual data from our estimated data.
-![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
 
 Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
@@ -34,6 +37,7 @@ We will write a function for that.
 ```python
 //def mean(values):
     return sum(values) / float(len(values))     
-```<br />
+```
+<br />
 Now the point at that x and y converge.<br />
 ![Alt text](rmimg/img3.jpg?raw=true "Title")

@@ -22,7 +22,7 @@ To find the BEST fit line we must minimize our actual data from our estimated da
 ![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
 
 
-Lets code!
+# Lets code!
 - - - - 
 The data x,y
 ```python

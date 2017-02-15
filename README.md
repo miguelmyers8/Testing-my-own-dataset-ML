@@ -25,7 +25,7 @@ We want to find the regression line. The line that BEST fits through all our poi
 ![Alt text](rmimg/img4.jpg?raw=true "Title")<br />
 
 To find the BEST fit line we must minimize our actual data from our estimated data.
-![Alt text](rmimg/img4.jpg?raw=true "Title")<br />
+![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
 
 Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
@@ -35,6 +35,5 @@ We will write a function for that.
 //def mean(values):
     return sum(values) / float(len(values))     
 ```<br />
-
 Now the point at that x and y converge.<br />
 ![Alt text](rmimg/img3.jpg?raw=true "Title")

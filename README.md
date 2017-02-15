@@ -22,8 +22,12 @@ The data x,y
 ```
 <br />
 
-Lets plot the data for visualization(actual plotting is not needed in the code at this point).<br />
+Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
-
-
+what we want to find is the mean of x and the mean of y.
+We will write a function for that. 
+```python
+//def mean(values):
+    return sum(values) / float(len(values))     
+```
 

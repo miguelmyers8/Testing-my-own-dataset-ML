@@ -12,22 +12,23 @@ The math example:
 Code example:
 [How To Implement Simple Linear Regression From Scratch With Python](http://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/ "How To Implement Simple Linear Regression From Scratch With Python")<br />
 
-
-
+Linear regression finds the straight line, called the least squares regression line
+![Alt text](rmimg/img6.jpg?raw=true "Title")<br />
 <br />
-We want to find the regression line. The line that BEST fits through all our points.
+We want to find the regression line. The line that BEST fits through all our points(the least squares regression line).
 ![Alt text](rmimg/img4.jpg?raw=true "Title")<br />
 
 To find the BEST fit line we must minimize our actual data from our estimated data.
 ![Alt text](rmimg/img5.jpg?raw=true "Title")<br />
 
 
-
-- - - -
+Lets code!
+- - - - 
 The data x,y
 ```python
 //values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
-```<br />
+```
+<br />
 ![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
 <br />
 

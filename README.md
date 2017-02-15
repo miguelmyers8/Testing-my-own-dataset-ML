@@ -31,7 +31,7 @@ values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
 ```
 <br />
 ![Alt text](rmimg/img1.jpg?raw=true "Title")<br />
-<br />
+
 
 Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
@@ -47,8 +47,9 @@ Our line will pass through the point that x and y converge. <br />
 ![Alt text](rmimg/img3.jpg?raw=true "Title")
 
 Lets continue to find out the best fit line. To do so we must subtract the mean of our x form each x value, and the mean of our y from each y value. <br />
-![Alt text](rmimg/img7.jpg?raw=true "Title")
+![Alt text](rmimg/img7.jpg?raw=true "Title")<br />
 ![Alt text](rmimg/img8.jpg?raw=true "Title")<br />
+
 ```python
 //
 def variance(values, mean):

@@ -54,7 +54,8 @@ Lets continue to find out the best fit line. To do so we must subtract the mean 
 //
 def variance(values, mean):
     return sum([(x-mean)**2 for x in values]) 
-    values = [[1, 2], [2, 4], [3, 5], [4, 4], [5, 5]]
+    
+values = [[1, 2], [2, 4], [3, 5], [4, 4], [5, 5]]
     
 x = [row[0] for row in values]
 y = [row[1] for row in values]

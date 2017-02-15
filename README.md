@@ -19,9 +19,10 @@ Code example:
 The data x,y
 ```python
 //values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
-```<br />
+```
+<br />
 
-Lets plot the data for visualization(actual plotting is not needed in the code at this point).
+Lets plot the data for visualization(actual plotting is not needed in the code at this point).<br />
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
 
 

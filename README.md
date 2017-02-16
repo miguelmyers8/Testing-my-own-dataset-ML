@@ -53,18 +53,7 @@ Lets continue to find out the best fit line. To do so we must subtract the mean 
 ```python
 //
 def variance(values, mean):
-    return sum([(x-mean)**2 for x in values]) 
-    
-values = [[1, 2], [2, 4], [3, 5], [4, 4], [5, 5]]
-    
-x = [row[0] for row in values]
-y = [row[1] for row in values]
-
-mean_x, mean_y = mean(x), mean(y)
-var_x, var_y = variance(x, mean_x), variance(y, mean_y)
-
-print('x stats: mean=%.3f variance=%.3f' %(mean_x, var_x))
-print('y stats: mean=%.3f variance=%.3f' %(mean_y, var_y))   
+    return sum([(x-mean)**2 for x in values])   
 ```
 <br />
 

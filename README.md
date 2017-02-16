@@ -59,7 +59,7 @@ def variance(values, mean):
 
 solving for b1
 ![Alt text](rmimg/img6.jpg?raw=true "Title")<br />
-![Alt text](rmimg/img9.jpg?raw=true "Title")<br />
+![Alt text](rmimg/img10.jpg?raw=true "Title")<br />
 ```python
 //
 def covariance(x, mean_x, y, mean_y):

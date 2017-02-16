@@ -65,4 +65,16 @@ var_x, var_y = variance(x, mean_x), variance(y, mean_y)
 
 print('x stats: mean=%.3f variance=%.3f' %(mean_x, var_x))
 print('y stats: mean=%.3f variance=%.3f' %(mean_y, var_y))   
+```<br />
+
+solving for b1
+![Alt text](rmimg/img6.jpg?raw=true "Title")<br />
+![Alt text](rmimg/img9.jpg?raw=true "Title")<br />
+```python
+//
+def covariance(x, mean_x, y, mean_y):
+    covar = 0.0
+    for i in range(len(x)):
+        covar += (x[i] - mean_x) * (y[i] - mean_y)
+    return covar
 ```

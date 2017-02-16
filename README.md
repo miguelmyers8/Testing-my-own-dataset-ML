@@ -65,7 +65,8 @@ var_x, var_y = variance(x, mean_x), variance(y, mean_y)
 
 print('x stats: mean=%.3f variance=%.3f' %(mean_x, var_x))
 print('y stats: mean=%.3f variance=%.3f' %(mean_y, var_y))   
-```<br />
+```
+<br />
 
 solving for b1
 ![Alt text](rmimg/img6.jpg?raw=true "Title")<br />

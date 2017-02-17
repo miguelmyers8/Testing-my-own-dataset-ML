@@ -76,3 +76,38 @@ solving for b0
 ```python
 b0 = y_mean - b1 * x_mean
 ```
+<br />
+```python
+Putting it togeather 
+def mean(values):
+    #print sum(values) / float(len(values))
+    return sum(values) / float(len(values))
+     
+     
+def variance(values, mean):
+    #print sum([(x-mean)**2 for x in values])
+    return sum([(x-mean)**2 for x in values])
+
+
+def covariance(x, mean_x, y, mean_y):
+    covar = 0.0
+    for i in range(len(x)):
+        covar += (x[i] - mean_x) * (y[i] - mean_y)
+    return covar
+
+values = [[1, 2], [2, 4], [3, 5], [4, 4], [5, 5]]
+
+def coefficients(values):
+    x = [row[0] for row in values]
+    y = [row[1] for row in values]
+    x_mean, y_mean = mean(x), mean(y)
+    #var_x, var_y = variance(x, mean_x), variance(y, mean_y)
+    #covar = covariance(x, mean_x, y, mean_y)
+    b1 = covariance(x, x_mean, y, y_mean) / variance(x, x_mean)
+    b0 = y_mean - b1 * x_mean
+    return [b0, b1]
+
+values = [[1, 2], [2, 4], [3, 5], [4, 4], [5, 5]]
+b0,b1 = coefficients(values)
+print('Coefficients: b0= %.3f, b1=%.3f' % (b0,b1))
+```

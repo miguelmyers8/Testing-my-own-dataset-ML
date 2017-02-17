@@ -68,3 +68,11 @@ def covariance(x, mean_x, y, mean_y):
         covar += (x[i] - mean_x) * (y[i] - mean_y)
     return covar
 ```
+<br />
+
+solving for b0
+![Alt text](rmimg/img6.jpg?raw=true "Title")<br />
+![Alt text](rmimg/img12.jpg?raw=true "Title")<br />
+```python
+b0 = y_mean - b1 * x_mean
+```

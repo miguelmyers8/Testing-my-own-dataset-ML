@@ -4,13 +4,9 @@ You will need python2<br />
 
 script is main.ipyndb<br />
 
-This repo combines two separate examples. The math along with the code<br />
-
+This repo combines codes the Linear Regression problem in this video.
 The math example:
 [How to calculate linear regression using least square method](https://www.youtube.com/watch?v=JvS2triCgOY&t=343s "How to calculate linear regression using least square method")
-
-Code example:
-[How To Implement Simple Linear Regression From Scratch With Python](http://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/ "How To Implement Simple Linear Regression From Scratch With Python")<br />
 
 Linear regression finds the straight line, called the least squares regression line<br />
 ![Alt text](rmimg/img6.jpg?raw=true "Title")<br />
@@ -36,7 +32,7 @@ values = [[1,2],[2,4],[3,5],[4,4],[5,5]]
 Lets plot the data for visualization(actual plotting is not needed in the code at this point).
 ![Alt text](rmimg/img2.jpg?raw=true "Title")<br />
 what we want to find is the mean of x and the mean of y.
-We will write a function for that. 
+We will write a function for that.
 ```python
 //
 def mean(values):
@@ -77,14 +73,14 @@ solving for b0
 b0 = y_mean - b1 * x_mean
 ```
 <br />
-# Putting it togeather 
+# Putting it togeather
 ```python
 
 def mean(values):
     #print sum(values) / float(len(values))
     return sum(values) / float(len(values))
-     
-     
+
+
 def variance(values, mean):
     #print sum([(x-mean)**2 for x in values])
     return sum([(x-mean)**2 for x in values])

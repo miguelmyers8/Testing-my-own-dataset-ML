@@ -4,7 +4,7 @@ You will need python2<br />
 
 script is main.ipyndb<br />
 
-This repo combines codes the Linear Regression problem in this video.
+This repo codes the Linear Regression problem in this video.
 The math example:
 [How to calculate linear regression using least square method](https://www.youtube.com/watch?v=JvS2triCgOY&t=343s "How to calculate linear regression using least square method")
 

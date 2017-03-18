@@ -74,6 +74,7 @@ b0 = y_mean - b1 * x_mean
 ```
 <br />
 # Putting it togeather
+<br/>
 ```python
 
 def mean(values):

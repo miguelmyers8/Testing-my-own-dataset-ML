@@ -75,8 +75,8 @@ b0 = y_mean - b1 * x_mean
 <br />
 # Putting it togeather
 <br/>
-```python
 
+```python
 def mean(values):
     #print sum(values) / float(len(values))
     return sum(values) / float(len(values))
